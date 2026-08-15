@@ -112,6 +112,34 @@ AI が実装コストを溶かした後の「望む力」の枯渇と、価値�
   https://atmarkit.itmedia.co.jp/ait/articles/2601/21/news008.html
   AI が「能動的な試行錯誤」というエンジニアリングの最も楽しい部分を奪ったと論じる日本語コラム。厳密な一人称告白ではないが、日本語圏でこのテーマに最も近い公開文章。
 
+- **2026年8月、開発の仕事が減るとは思っていたけど、想像よりだいぶ早かった** — Yoji Minabe / Qiita (2026-08-14)
+  https://qiita.com/yminabe/items/b8330209ba90dd148cdc
+  仕事の消失を扱う日本語一人称記事。「脳みそが死んでいく感じがする」（空洞化）「お見合いで職業を説明できなくなってきた」（無用化 dread）が型に触れるが、「何を作るか・なぜ作るか」は人間に残ると信じる側で枯渇型ではない（muu3 系譜のポジティブ再定義）。2026-08-15 内容照合済み。
+
+## 6. 実証研究 — 隣接現象の量的測定（2026-08-15 追加）
+
+エッセイ genre の外にある査読済み文献群。**空洞化と剥奪**（[concepts.md](concepts.md) 境界節）は n=数百〜数千で測定済み。ただし全て「与えられたタスク」を割り当てる実験パラダイムで、**枯渇（何を望むかが尽きる）は原理的に測れない設計** — この構造的空白が、本 repo の証言収集という手法の積極的根拠になる。全 URL は 2026-08-15 に内容照合済み。
+
+- **Relying on AI at work reduces self-efficacy, ownership, and meaning while active collaboration mitigates the effects** — Lee, Yin, Jia, Wakslak / Scientific Reports 16:13583 (2026-03-15)
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC13121737/
+  事前登録実験 N=269 + 追跡 N=270。受動的 AI 使用で所有感 -19% / 意味 -11% / 効力感 -8%。AI なし作業に戻っても効力感 -12% / 意味 -8% が残存。能動的協働（自分で下書き→AI 推敲）では低下せず。報道: https://phys.org/news/2026-06-passive-ai-meaninglessness.html
+
+- **Human-generative AI collaboration enhances task performance but undermines human's intrinsic motivation** — Wu et al. / Scientific Reports (2025-04-29)
+  https://pmc.ncbi.nlm.nih.gov/articles/PMC12041296/
+  4 実験・総 N=3,562。AI 協働は即時成績を上げるが単独作業には持続せず、復帰後に内発的動機が低下し**退屈**が上昇（psychological deprivation effect）。國分『暇と退屈の倫理学』の対象が実験心理学の従属変数になった接続点。
+
+- **When AI Sparks Less: Generative AI and The Decline Of Self-Perceived Creativity** — Endres, Schöttl, Baisch / ECIS 2026 (2026-06-14)
+  https://aisel.aisnet.org/ecis2026/genai/genai/5/
+  N=82。生成 AI 使用で内発的動機・創造性関連スキルが低下する一方、**自己評価の成績は不変** — 低下が本人に見えない可能性を示唆し、一人称証言という測定器の限界に触れる。
+
+- **Are We Automating the Joy Out of Work? Designing AI to Augment Work, Not Meaning** — Ranjit, Zhou, Swayamdipta, Quercia / CHI 2026 (arXiv 2603.14963)
+  https://arxiv.org/html/2603.14963
+  **剥奪機構の本命**。202 労働者 + 197 開発者・171 タスク・22 職種（LLM で 10,131 タスク・512 職種へスケール）。労働者は無意味なタスク（Perceived Bullshitness 高）を委譲したがり意味側を保持したがるのに、意味・agency の高いタスクほど AI 露出が高い。`desire exhaustion` に対する競合仮説の最初の外部証拠。
+
+- **Octoverse: A new developer joins GitHub every second as AI leads TypeScript to #1** — GitHub Blog (2025-10-28 公開 / 2026-02-28 更新、観測窓 2024-09〜2025-08)
+  https://github.blog/news-insights/octoverse/octoverse-a-new-developer-joins-github-every-second-as-ai-leads-typescript-to-1/
+  マクロ需要側の反対材料。新規リポジトリ毎分 230 個（年約 1.21 億）、新規開発者 3,600 万人 (+23% YoY)。「作りたいもの」の供給はマクロで加速中 — 枯渇仮説の一般化射程を狭める、毎年更新される定点指標（次回 2026 年 10 月末前後見込み）。
+
 ## 探索の空白 — baseline 記録（2026-08-14 時点）
 
 このフロンティアの中心仮説「一巡した人から順に、AI に頼むことが尽きる地点に着く」の定点観測の起点として、**まだ存在しないもの**を記録する。
