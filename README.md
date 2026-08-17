@@ -28,7 +28,7 @@ https://note.com/sakamaki4228/n/n2375bfc4d521
 
 ## 観測ループ
 
-daily-research の `desire` line が**毎日**（他 line の輪番とは別枠で）到達者の証言・関連論考の動きを監視し、面白いものは LLM wiki へ ingest される。
+daily-research の `desire` line が到達者の証言・関連論考の動きを監視し、面白いものは LLM wiki へ ingest される。2026-08-14〜18 は毎日（他 line の輪番とは別枠）、初期 4 本の高収率が外部の日次の動きではなく未読在庫の消化によるものだったため、2026-08-18 から他 5 line との **6 日周期の輪番**に戻した（daily-research ADR-0012）。レポートの repo への取り込み（concepts / reading-list / testimonies）は手動で、cadence に依存しない。
 
 ## この構造は足場である
 
