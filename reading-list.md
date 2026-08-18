@@ -2,7 +2,7 @@
 
 AI が実装コストを溶かした後の「望む力」の枯渇と、価値の移動先に関する既存の有名エッセイ・論考のリンク集。
 
-- 収集: 2026-08-14。全 URL は同日に WebSearch / WebFetch で実在・内容照合済み（[unverified] 表記の 2 件のみ、fetch がブロックされたため書誌レベルの確認に留まる）。2026-08-16〜17 追加分（Borretti 5 本 / Imas 系列 / 翻訳 §8 / HN 定点 / 日本語圏 5 本）は desire line が内容照合、2026-08-17 に URL 実在を再確認。2026-08-18 追加分（公開の停止 3 本 / Imas 2026-02-09 / Show HN 定点）も同日照合（Medium は curl 403 = bot 遮断のため run 側の一次確認に依拠）
+- 収集: 2026-08-14。全 URL は同日に WebSearch / WebFetch で実在・内容照合済み（[unverified] 表記の 2 件のみ、fetch がブロックされたため書誌レベルの確認に留まる）。2026-08-16〜17 追加分（Borretti 5 本 / Imas 系列 / 翻訳 §8 / HN 定点 / 日本語圏 5 本）は desire line が内容照合、2026-08-17 に URL 実在を再確認。2026-08-18 追加分（公開の停止 3 本 / Imas 2026-02-09 / Show HN 定点）も同日照合（Medium は curl 403 = bot 遮断のため run 側の一次確認に依拠）。2026-08-19 追加分（Show HN 到達率 / HN メタ議論 / lcamtuf）は同日 URL 照合・Algolia 数値を再取得して再現確認
 - 起点エッセイ: [AI に頼みたいことが尽きたあと、ひとつだけ残った欲望](https://note.com/sakamaki4228/n/n2375bfc4d521)（note, 2026-08-13）
 - LLM 界隈の論考は陳腐化が速い。日付ごと読むこと
 
@@ -67,6 +67,7 @@ AI が実装コストを溶かした後の「望む力」の枯渇と、価値�
     実行そのものが価値である論。未精読
   - **No-One Escapes the Permanent Underclass** (2026-06-25) https://borretti.me/article/no-one-escapes-the-permanent-underclass
     agency の消失。人間は「はるかに強力な機械の、agency を持たない無力なペット」。disempowerment 論の反復、意味は扱わない
+  - 定点（2026-08-19）：インデックスに **"AI Alignment as a Thought-Terminating Cliche"（2026-08-18）** を検出。slug 推測 fetch は 404 で本文未取得。タイトルからは本 line 外の公算が高いが、タイトルだけで落とさず持ち越し
 
 - **Tool-makers usually lack connection to a serious context of use** — Andy Matuschak (Evergreen note)
   https://notes.andymatuschak.org/z7vdiuQK7HuFyi4V5EemF3e
@@ -120,7 +121,7 @@ AI が実装コストを溶かした後の「望む力」の枯渇と、価値�
 
 - **Someday we will all be artists** — Alex Imas / Ghosts of Electricity (2026-02-09)
   https://aleximas.substack.com/p/someday-we-will-all-be-artists
-  タイトルは制作側に見えるが**消費側の議論**。中心は humanness premium（観客は成果物だけでなく作り手との関係・物語・来歴を買う）。作り手がなぜ作りたくなるかは "incentives matter" の一段落のみで、制作欲望の理論も制作側の模倣的欲望の議論も無い。「Imas の実証は消費側のみ」（[concepts.md](concepts.md) 対抗モデル節）の空白確認。2026-08-18 精読。
+  タイトルは制作側に見えるが**消費側の議論**。中心は humanness premium（観客は成果物だけでなく作り手との関係・物語・来歴を買う）。作り手がなぜ作りたくなるかは "incentives matter" の一段落のみで、制作欲望の理論も制作側の模倣的欲望の議論も無い。「Imas の実証は消費側のみ」（[concepts.md](concepts.md) 対抗モデル節）の空白確認。2026-08-18 精読。同 archive の未読 2 本（"How Will AI-driven Automation Actually Affect Jobs?" 2026-03-23 / "Who Uses AI (and How)?" 2026-02-18）は 2026-08-19 検出・未精読。
 
 - **The Intelligence Age** — Sam Altman (2024-09-23)
   https://ia.samaltman.com/
@@ -210,7 +211,23 @@ AI が実装コストを溶かした後の「望む力」の枯渇と、価値�
 
 - **Show HN 投稿数（7 月同月比、3 年）**（Algolia API `tags=show_hn` + `numericFilters=created_at_i`、2026-08-18 初取得）
   https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=created_at_i%3E1782864000,created_at_i%3C1785542400&hitsPerPage=1
-  **三本目のマクロ反証器、かつ最も直接的**。1,586（2024-07）→ 2,567（2025-07）→ 4,199（2026-07）、2 年連続 +62〜64%/年——公開行為はマクロで加速中。「公開の停止」を集計は一切映さない。留保：`nbHits` は大結果集合で概算になりうる（倍率として扱う）、Show HN タグは自己申告。反証器として効くのは総数でなく**同一人物の継続率**（author フィールドで測れる、未着手）。
+  **三本目のマクロ反証器、かつ最も直接的**。1,586（2024-07）→ 2,567（2025-07）→ 4,199（2026-07）、2 年連続 +62〜64%/年——公開行為はマクロで加速中。「公開の停止」を集計は一切映さない。Show HN タグは自己申告。2026-08-19：全クエリで `exhaustiveNbHits: true` を確認——**概算留保は反故、全数**。
+
+- **Show HN 到達率（7 月同月比、3 年）**（Algolia API `tags=show_hn` + `points>=N`、2026-08-19 新設。数値は同日に再取得して再現）
+  https://hn.algolia.com/api/v1/search_by_date?tags=show_hn&numericFilters=created_at_i%3E1782864000,created_at_i%3C1785542400,points%3E=100&hitsPerPage=1
+  **この repo で初の「受け手の消失／希釈」の定量指標**。投稿 1,586 / 2,567 / 4,199（+165%）に対し、10 点以上 244 / 274 / 398（+63%）、**100 点以上 70 / 61 / 71（+1.4%）**。到達率：10 点 15.4% → 10.7% → 9.5%、**100 点 4.41% → 2.38% → 1.69%**（相対 −62%）。参考：HN 全 story の 100 点以上は 1,063 / 1,163 / 1,350（+27%）で、Show HN の取り分は 6.59% → 5.24% → 5.26%——注意の総量は増えたのに Show HN は拡張分を取れていない。**消失ではなく希釈**（[concepts.md](concepts.md) 受け手の消失）。因果は作り手急増・AI 言説の枠占拠・モデレーションの重ね合わせで未分離、venue は 1 つ。
+
+- **Show HN 同一人物継続率**（2026-08-19 新設・即座に格下げ）
+  https://hn.algolia.com/api/v1/search_by_date?tags=show_hn,(author_gurachek,author_ozten,author_Jsuh,author_Suedish,author_scrollaway,author_eddieos,author_pmbanugo,author_quinto_quarto,author_javier_cardona,author_siim,author_joaomeloplus,author_FakeFind_ai,author_CarSan99,author_delduca,author_johntawfik,author_averadev,author_yiyingzhang)&numericFilters=created_at_i%3E1767225600&hitsPerPage=100
+  2024-07 コホート 21.5%（17/79）→ 2025-07 コホート 20.6%（14/68）、翌年 1/1〜8/19 の同位相窓。差 0.9 pt は誤差 ±13 pt の内側。HN は投稿の約 70% が一度きりのアカウント（基底離脱率 79%）なので、**author 単位の指標は原理的に感度を持たない**。「公開の停止」の検出器として使えないと判定。
+
+- **The percentage of Show HN posts is increasing, but their scores are decreasing** — plastic041 / Hacker News（237 点、2026 年初頭）
+  https://news.ycombinator.com/item?id=46702099
+  当事者コミュニティ側から同じ現象（Show HN 比率増・スコア減）を記述した HN 投稿。受け手側の**制度的反応**の観測点。関連：**Ask HN: Please restrict new accounts from posting** — Oras（2026-03-08、721 点・515 コメント、id=47300329）— AI 由来の低品質投稿を理由に新規アカウントの投稿制限を要求。二次報道 https://keydiscussions.com/2026/03/09/hacker-news-moves-toward-restricting-show-hn-posts-amid-the-ai-slop-wave/ （Key Discussions 2026-03-09）は運営の Show HN throttling 言及を伝えるが、**実装の一次証拠は未確認**。watched-sources 追加候補。
+
+- **How much of HN is AI?** — lcamtuf (2026-03-12)
+  https://lcamtuf.substack.com/p/how-much-of-hn-is-ai
+  HN 日次トップ記事に占める AI 関連・AI 生成の比率が 2026-02 の約 40% → 06 の 50〜60%（Pangram + サンプリング）。Show HN が 100 点枠を取れなくなった原因の候補（受け手が個人開発に飽きたのでなく、**同じ枠を AI 言説が占めた**）。到達率低下の交絡として分離が要る。HN の AI 汚染比率を実測している唯一の定点、watched-sources 追加候補。
 
 ## 7. 将棋 — 先行完走ドメインの資料（2026-08-15 追加）
 
@@ -256,6 +273,7 @@ AI 優位確定（2017）から約 10 年経過した将棋を、経路仮説の
   - `はてな匿名ダイアリー AI 「作りたいものがない」 増田`
   - `Hacker News "I don't know what to build" OR "nothing left to build"`
   - 2026-08-17 追加（趣味制作者＝非生計依存層に絞った 2 本、いずれも creator economy の商業記事と burnout 一般論に流れた——**非生計依存層の証言は検索語で釣れる場所には無い**）: `hobbyist creators AI "lost interest" "nothing left to make" 2026 personal blog confession` / `Reddit 2026 "I have no ideas left" AI can build anything "don't want to build" burnout`
+- 2026-08-19 再確認: 日本語圏の枯渇型ゼロ **6 日連続**。到達した新規は note.com/choo「個人開発をしてみたいけど、作りたいものがない人へ」のみで、一次 fetch の結果 **2024-11-19 公開・AI 言及なし・他人向け助言記事**（著者は既に脱して事業運営）——枯渇型ではないと判定、台帳未採録。クエリ：`個人開発 2026 「作ったけど公開していない」 AI 出すのが恥ずかしい 意味がない ブログ` / `2026 note Zenn 「作りたいものがない」 AI 何でも作れる 虚無 個人開発 一人称`。英語圏で「届かない・埋もれる」語彙（`2026 "no one sees it" OR "nobody notices" indie developer publishing AI flood attention "not worth posting" personal blog`）は Steam / インディー出版の商業記事に流れ一人称に届かず——08-18 の「釣れる語彙は公開・共有・見せる」は 1 回の追試で再現せず、弱く持ち直す
 - 2026-08-18 再確認: 日本語圏の枯渇型ゼロ **5 日連続**。「AI で作ったと思われるのが嫌で公開しなくなった」型の検索は著作権・BAN 対策記事に流れ一人称に届かず——**日本語圏では公開の停止型も未出現**。英語圏は「公開・共有・見せる」の語彙で 3 本に到達（2026-08-17 の「非生計依存層は釣れない」は部分的に反故——層の不在でなくクエリが「枯渇」の語彙に寄りすぎていた）。反証方向 `2026 survey OR data hobbyist creators making more since AI "more motivated" personal projects increase evidence` → 該当なし（Kit / Adobe / Envato / Creative Boom はいずれも職業クリエイター対象）
 - 2026-08-16〜17 再確認: 日本語圏の枯渇型は**ゼロのまま（4 日連続）**。新規に確認した 5 本（elliot_james / nishiken / yun_bow / ktg / tsuyuki）はいずれも枯渇型ではない（§3・§5）。日本語圏で実際に動いた防衛線は「何を作るかは人間に残る」（3 本目 tsuyuki）と「作れば誰かが使う」の否定（yun_bow）
 
